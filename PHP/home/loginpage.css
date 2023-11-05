@@ -1,0 +1,55 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+form {
+/*  border: 3px solid #f1f1f1;*/
+  height: 260px;
+  width: 500px;
+  justify-content: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form.main{
+margin-left: 30%;
+margin-top: 10%;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+/*  display: inline-block;*/
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #1d3557;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  font-family: bold;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+  background-color:#457b9d;
+  color: black;
+  font-weight: 10px;
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: none;
+  padding-top: 16px;
+}

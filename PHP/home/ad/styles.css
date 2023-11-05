@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #4027ff;
+    color: #fff;
+    width: 260px;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto; /* Add scroll if sidebar content exceeds the viewport height */
+}
+
+.logo img {
+    width: 70px; /* Adjust the logo size as needed */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px 0;
+}
+
+ul li a:hover {
+    background-color: #434444;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+/* #newsidebar{
+    background-color: #9c00d5;
+} */
